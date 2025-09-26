@@ -28,7 +28,7 @@ const SortableItem = ({ id, task }) => {
     >
       <p className="font-semibold">{task.title}</p>
       <p className="text-sm text-gray-700">{task.description}</p> {/* Description instead of priority */}
-      <p className="text-xs text-gray-600">Deadline: {task.deadline}</p>
+      <p className="text-xs text-gray-600">Deadline: {task.dueDate}</p>
     </div>
   );
 };
